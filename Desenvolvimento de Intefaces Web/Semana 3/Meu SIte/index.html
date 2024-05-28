@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site PUC Minas</title>
+  <link rel="icon" href="PUC LOGO.jpg" type="image/icon type">
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(255, 255, 255);
+    }
+    header, aside, main {
+      padding: 20px;
+      border: 1px solid #000000;
+      margin: 10px;
+    }
+    header {
+      background-color: gray;
+    }
+    aside {
+      background-color: #e0e0e0;
+      width: 150px;
+      float: left;
+    }
+    main {
+      background-color: rgb(179, 179, 179);
+      margin-left: 220px; 
+    }
+    form {
+      margin-top: 20px;
+    }
+    label, input, button {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SGA PUC Minas</h1>
+  </header>
+  <aside>
+    <h2>Seleçao de Itens</h2>
+    <div>
+        <button type"submit">Login do Aluno</button>
+    </div>
+    <div>
+        <button type"submit">Login do Professor</button>
+    </div>
+    <div>
+      <button type"submit">Login Canva</button>
+    </div>
+    <div>
+        <button type"submit">Cadastre-se</button>
+      </div>
+  </aside>
+  <main>
+    <h2>Faça Login</h2>
+    <p>Coloque Login e Senha na área informada abaixo:</p>
+    <form action="#" method="post">
+      <label for="username">Nome de usuário:</label>
+      <input type="text" id="username" name="username">
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password">
+      <button type="submit">Login</button>
+    </form>
+  </main>
+</body>
+</html>
