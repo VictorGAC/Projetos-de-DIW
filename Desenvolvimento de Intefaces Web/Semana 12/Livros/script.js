@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
         card.innerHTML = `
           <div class="card h-100">
             <img src="${book.image}" class="card-img-top" alt="${book.title}">
-            
             <div class="card-body">
               <h5 class="card-title">${book.title}</h5>
               <p class="card-text">${book.description}</p>

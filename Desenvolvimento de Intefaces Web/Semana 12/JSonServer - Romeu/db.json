@@ -1,0 +1,19 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "JavaScript: The Good Parts",
+        "description": "Um livro sobre as partes boas do JavaScript.",
+        "image": "https://example.com/js-good-parts.jpg",
+        "additionalDetail": "Autor: Douglas Crockford"
+      },
+      {
+        "id": 2,
+        "title": "Eloquent JavaScript",
+        "description": "Um livro para aprender JavaScript de maneira elegante.",
+        "image": "https://example.com/eloquent-js.jpg",
+        "additionalDetail": "Autor: Marijn Haverbeke"
+      }
+    ]
+  }
+  
